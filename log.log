@@ -1,0 +1,30 @@
+FFF
+
+Failures:
+
+  1) RomanNumerals Probando Numeros Numero es I
+     Failure/Error: @romanNumerals.convertir("I").should==1
+       expected: 1
+            got: 0 (using ==)
+     # ./romanNumerals_spec.rb:10:in `block (3 levels) in <top (required)>'
+
+  2) RomanNumerals Probando Numeros Numero es II
+     Failure/Error: @romanNumerals.convertir("II").should==2
+       expected: 2
+            got: 1 (using ==)
+     # ./romanNumerals_spec.rb:13:in `block (3 levels) in <top (required)>'
+
+  3) RomanNumerals Probando Numeros Numero es III
+     Failure/Error: @romanNumerals.convertir("III").should==3
+       expected: 3
+            got: 2 (using ==)
+     # ./romanNumerals_spec.rb:16:in `block (3 levels) in <top (required)>'
+
+Finished in 0.001 seconds
+3 examples, 3 failures
+
+Failed examples:
+
+rspec ./romanNumerals_spec.rb:9 # RomanNumerals Probando Numeros Numero es I
+rspec ./romanNumerals_spec.rb:12 # RomanNumerals Probando Numeros Numero es II
+rspec ./romanNumerals_spec.rb:15 # RomanNumerals Probando Numeros Numero es III
