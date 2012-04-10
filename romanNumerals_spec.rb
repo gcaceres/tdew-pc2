@@ -15,7 +15,9 @@ describe RomanNumerals do
 		it "Numero es III" do		
 			@romanNumerals.convertir("III").should==3
 		end
-
+		it "Numero es IV" do		
+			@romanNumerals.convertir("IV").should==4
+		end
 		it "Numero es V" do		
 			@romanNumerals.convertir("V").should==5
 		end
@@ -30,6 +32,10 @@ describe RomanNumerals do
 
 		it "Numero es VIII" do		
 			@romanNumerals.convertir("VIII").should==8
+		end
+
+		it "Numero es IX" do		
+			@romanNumerals.convertir("IX").should==9
 		end
 
 		it "Numero es X" do		
