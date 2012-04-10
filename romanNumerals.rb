@@ -17,6 +17,10 @@ attr_reader :resultado
 				
 				@resultado=@resultado+1
 			end
+			if cadena[index]=="V"
+				
+				@resultado=@resultado+5
+			end
 			index = index -1
 		end
 
