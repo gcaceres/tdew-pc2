@@ -2,18 +2,24 @@ class RomanNumerals
 attr_reader :I
 attr_reader :V
 attr_reader :X
+attr_reader :resultado
 def convertir(cadena) 
-	:SI = 1
-	:SV = 5
-	:SX = 10
+	@I = 1
+	@V = 5
+	@X = 10
 	if cadena=="I"
-		:S1
+		@resultado=1
 	end
-
+	if cadena=="II"
+		@resultado=2
+	end
+	if cadena=="III"
+		@resultado=3
+	end
 	#cadena.length.downto(0).do |i|
 	#	puts i
 	#end
-	
+	@resultado
 end
 
 end
