@@ -32,6 +32,10 @@ describe RomanNumerals do
 			@romanNumerals.convertir("VIII").should==8
 		end
 
+		it "Numero es X" do		
+			@romanNumerals.convertir("X").should==10
+		end
+
 
 	end
 
