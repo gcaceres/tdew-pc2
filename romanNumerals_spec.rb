@@ -15,6 +15,11 @@ describe RomanNumerals do
 		it "Numero es III" do		
 			@romanNumerals.convertir("III").should==3
 		end
+
+		it "Numero es V" do		
+			@romanNumerals.convertir("V").should==5
+		end
+		
 		it "Numero es VI" do		
 			@romanNumerals.convertir("VI").should==6
 		end
