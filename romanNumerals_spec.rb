@@ -23,6 +23,16 @@ describe RomanNumerals do
 		it "Numero es VI" do		
 			@romanNumerals.convertir("VI").should==6
 		end
+		it "Numero es VII" do		
+			@romanNumerals.convertir("VII").should==7
+		end
+
+
+		it "Numero es VIII" do		
+			@romanNumerals.convertir("VIII").should==8
+		end
+
+
 	end
 
 end
