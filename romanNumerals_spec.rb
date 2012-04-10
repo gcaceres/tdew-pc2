@@ -43,6 +43,40 @@ describe RomanNumerals do
 		end
 
 
+		it "Numero es XI" do		
+			@romanNumerals.convertir("XI").should==11
+		end
+
+		it "Numero es XII" do		
+			@romanNumerals.convertir("XII").should==12
+		end
+
+		it "Numero es XIII" do		
+			@romanNumerals.convertir("XIII").should==13
+		end
+
+
+		it "Numero es XIV" do		
+			@romanNumerals.convertir("XIV").should==14
+		end
+
+		it "Numero es XV" do		
+			@romanNumerals.convertir("XV").should==15
+		end
+
+		it "Numero es XVI" do		
+			@romanNumerals.convertir("XVI").should==16
+		end
+
+		it "Numero es XVII" do		
+			@romanNumerals.convertir("XVII").should==17
+		end
+		
+		it "Numero es XVIII" do		
+			@romanNumerals.convertir("XVIII").should==18
+		end
+
+
 	end
 
 end
