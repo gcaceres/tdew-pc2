@@ -1,6 +1,6 @@
 class RomanNumerals
 attr_reader :numero
-def convertir(cadena)
+def convertir(cadena) 
 
 	1
 	
